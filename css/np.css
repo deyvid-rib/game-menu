@@ -1,0 +1,10 @@
+body{
+    background: url("../gifs/newplayer.gif");
+    background-size: cover;
+}
+
+#extender{
+    position: relative;
+    top: 620px;
+    visibility: hidden;
+}

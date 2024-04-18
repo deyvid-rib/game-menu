@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url("../imgs/menu1-lowbright.png");
+    background-size: cover;
+}
+#tela1{
+    border: 3px solid black;
+    width: 600px;
+    height: 420px;
+    border-radius: 8px;
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+#tela2{
+    background-color: rgb(0, 6, 25);
+    width: 586px;
+    height: 416px;
+    border: 7px solid rgb(3, 39, 197);
+    border-radius: 5px;
+}
+#tela3{
+    background-color: rgb(0, 11, 47);
+    width: 586px;
+    height: 100px;
+    border-bottom: 7px solid rgb(1, 19, 96);
+    position: relative;
+    bottom: 40px;
+}
+
+#login{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    width: 660px;
+    position: relative;
+    left: -35px;
+    top: 30px;
+}
+
+label{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    width: 660px;
+    position: relative;
+}
+
+input{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    width: 350px;
+    position: relative;
+    left: 30px;
+    text-align: left;
+}
+
+#password{
+    left: 35px;
+}
+
+form{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#forgot{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    width: 350px;
+    position: relative;
+    left: 370px;
+    top: 25px;
+    text-align: left;
+}
+
+#register1{
+    width: 250px;
+    height: 80px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+
+#register2{
+    background-color: rgb(255, 128, 0);
+    border: 3px solid rgb(191, 124, 1);
+    border-radius: 10px;
+    width: 245px;
+    height: 75px;
+    position: relative;
+}
+
+#register{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    letter-spacing: -2px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+}
+
+#register1:hover{
+    #register2{
+        border: 3px solid rgb(192, 147, 62);
+    }
+}
+#logar1{
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 310px;
+    bottom: 55px;
+    border: 3px solid rgb(54, 245, 54);
+    border-radius: 15px;
+}
+
+#logar2{
+    background-color: green;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    width: 245px;
+    height: 75px;
+    position: relative;
+}
+
+#logar{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    letter-spacing: -2px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    text-decoration: none;
+}
+
+#logar1:hover{
+    #logar2{
+        border: 3px solid rgb(39, 111, 39);
+    }
+}
+
+#exit1{
+    border: 3px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    position: relative;
+    left: 490px;
+    bottom: 448px;
+}
+
+#exit2{
+    background-color: rgb(1, 17, 88);
+    border: 5px solid rgb(3, 39, 197);
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+#exit{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+#exit1:hover{
+    #exit2{
+        background-color: rgb(26, 38, 93);
+        border: 5px solid rgb(56, 81, 190); 
+    }
+}
+
+#extender{
+    position: relative;
+    top: 300px;
+    visibility: hidden;
+}
